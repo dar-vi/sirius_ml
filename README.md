@@ -60,3 +60,16 @@ _Более подробно каждый шаг описан в Google Colab_
 Далее была проведена кластеризация получившихся наборов тегов. Всего получилось 6 разных вариаций тегов. Наиболее распространен вариант набора тегов из белой кровати и лампы. С помощью коэффициента силуэта кластера была произведена оценка о том, хорошо ли выражена кластерная структура. Этот коэффициент оказался равен 0.7. Это говорит о том, что кластерная структура выражена не совсем хорошо, но все же она имеет место быть.  
 
 ## Изменение изображения при помощи диффузионной модели
+Я составила небольшую выборку из фотографий комнат в отеле, где видна кровать. В качестве объекта, который я буду изменять, я выбрала именно её. Я решила добавить на каждую кровать розовые бумажные сердечки, чтобы инопланетяне увидили знакомые цвета и были приятно удивлены нашей гостепреимностью. Была испозьвана модель Stable Diffusion. Далее я приведу фотографии до/после наиболее удачных получишихся обработок.  
+_Если потребуется рассмотреть их поближе, то все фотографии лежат в репозитории в папке "alien", обработанные фотографии пронумерованы от 1 до 8_
+
+<img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/20160623_182002_L013MY.jpg" width="400" height="300"> <img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/1.png" width="400" height="300">  
+<img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/20160623_152802_LZNB4M.jpg" width="400" height="500"> <img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/3.png" width="400" height="500">  
+<img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/20160624_030441_T8RZQX.jpg" width="400" height="300"> <img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/5.png" width="400" height="300">  
+<img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/20160624_021234_0I894C.jpg" width="400" height="300"> <img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/6.png" width="400" height="300">  
+<img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/20160623_215354_VVIQSE.jpg" width="400" height="500"> <img src="https://github.com/dar-vi/sirius_ml_Vashchenko/blob/main/alien/8.png" width="400" height="500">  
+
+Ура! Теперь инопланетяне точно захотят приехать в эти отели. Они вряд ли разочаруются - нарезать розовые сердечки из бумаги не составит труда работникам отеля, поэтому кровати будут украшены также, как на картинке.  
+Также благодаря добавленным описаниям отелей инопланетянам будет проще сделать выбор и прилететь на нашу планету.  
+
+На этом моё решение подошло к концу. Если у вас остались вопросы, то можете обращаться ко мне в телеграм https://t.me/dar_vi 
